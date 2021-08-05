@@ -26,7 +26,7 @@ func main() {
 		v2.mu.Lock()
 		defer v2.mu.Unlock()
 
-		fmt.Println("sum=%v\n", v1.value+v2.value)
+		fmt.Printf("sum=%v\n", v1.value+v2.value)
 	}
 
 	var a, b value
